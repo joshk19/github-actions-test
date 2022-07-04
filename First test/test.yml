@@ -1,0 +1,27 @@
+attribute: test
+bool_attribute: false
+number: 12
+quotes: "test: for the yml"
+object:
+  id: 2
+  other_attribute: plop
+object_format: {
+  key: someKey,
+  another_key: 12
+}
+array_simple:
+  - item1
+  - item2  
+array_object:
+  - item1: a value
+    an_attribute: true
+    other_attribute:: 12
+  - item2: a value
+    an_attribute: true
+    other_attribute:: 12
+long_text: >
+  a very long line to test the view
+  in the yaml files so it looks easier to read
+long_text_v2: |
+  a very long line to test the view
+  in the yaml files so it looks easier to read
