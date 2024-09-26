@@ -5,6 +5,7 @@ quotes: "test: for the yml"
 object:
   id: 2
   other_attribute: plop
+  key: 123
 object_format: {
   key: someKey,
   another_key: 12
